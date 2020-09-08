@@ -3,31 +3,58 @@ import {Container, Row, Col} from 'reactstrap'
 import './style.css'
 import img1 from './the-logo-use-blk-no-triangle.png'
 let img1name = 'THE - The House Entertainment'
+let list = [
+    {name:"home", link: "#"},
+    {name:"about", link: "#"},
+    {name:"events", link: "#"},
+    {name:"music", link: "#"},
+    {name:"videos", link: "#"},
+    {name:"artists", link: "#"},
+    {name:"contact", link: "#"},
+    {name:"careers", link: "#"}
+
+]
 const HomePage = () => {
     return (
         <>
-        <Container>
-            <Col>
-                <Row>
-                    <img src = {img1} height="auto" width="100%" alt={img1name} />
+            <Container>
+                <Row className={"fullHeight"}>
+                    <Col>
+                    
+                        <img srcset = {img1} alt={img1name} width="100%" height="auto" />
+                    </Col>
                 </Row>
                 <Row>
-                    <header className="theText">
-                        <h1 className="white">
-                            The House Entertainment
-                        </h1>
-                    </header>
+                    <Col>
+                        <header className="theText">
+                            <h1 className="white">
+                                The House Entertainment
+                            </h1>
+                        </header>
+                        <main className="center">
+                            <p className={"white"}>The House Entertainmnet is an entertainment services 
+                            <br/>and content creation company based out of San Diego, CA.</p>
+                            <p className={"gray"}>For more information contact: <a href="mailto:hello@thehouseentertainment.com">hello@thehouseentertainment.com</a></p>
+                        </main>
+                    </Col>
                 </Row>
                 <Row>
-                    <footer>
-                        <p className="white footerText">
-                            The House Entertainment &copy;2020
-                        </p>
-            
-                    </footer>
+                    <Col sm={12}>
+                        <footer>
+                            <p className="small white footerText">
+        The House Entertainment &copy;2020 
+        <ul className="footerLinks">
+            {list.map(item => { 
+            return (
+                <li className="footerLink"><a href={item.link}>{item.name}</a></li>
+            )
+            })}
+                                </ul>
+                            </p>
+                        </footer>
+                    </Col>
                 </Row>
-            </Col>
-        </Container>
+            </Container>
         </>
     )
 }
