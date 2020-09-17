@@ -1,0 +1,59 @@
+.navbar .navbar-toggler.navBtn {
+    width:60px;
+    height:40px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    ul{
+        padding-left: 0;
+        
+        li{
+            list-style-type: none;
+            color: white;
+            font-size:1.2em;
+            a{
+                color: white;
+                &:hover{
+                    color: red
+                }
+            }
+            p {
+                font-size: 1.1em;
+            }
+            .item-text {
+                background: white;
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: larger;
+                padding: 3px 5px;
+            }
+            .item-links {
+                text-align: center;
+                margin:0 auto;
+                width:292px;
+                div {
+                    float:left;
+                }
+            }
+            
+        }
+        .item {
+            display: inline-block;
+        }
+        li.list-group-item {
+            background: transparent;
+            border: 1px solid white;
+            margin: 15px auto;
+            text-align: center;
+        }
+    }
+    .center-this {
+        margin: 0 auto;
+    }
+    .list-group {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
