@@ -1,0 +1,79 @@
+@font-face {
+    font-family: '215000eregular';
+    src: url('../fonts/215000e-webfont.woff2') format('woff2'),
+         url('../fonts/215000e-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'phorssaregular';
+    src: url('../fonts/phorssa-webfont.woff2') format('woff2'),
+         url('../fonts/phorssa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body, .main-container {
+    background-color:black;
+    color: white;
+}
+nav .navbar-translate .navbar-brand {
+    font-family: '215000eregular';
+    font-size: 2em;
+}
+.white {
+    color: white;
+}
+main h2 .smaller {
+    font-size: smaller;
+}
+main h2 .smaller a:hover {
+    color: #242424;
+}
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin-top:5%;
+}
+.main-container header {
+    /* height:100vh;*/        
+}
+.main-text {
+    position: relative;
+    overflow: hidden;
+}
+.main-text img {
+    max-width: 600px;
+}
+.main-text h1 {
+    font-size:3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: '215000eregular';
+}
+.main-container .image-container {
+    margin-top:10vh;
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+    text-align: center;
+}
+.main-container nav.navbar {
+    padding:0.5rem 0.8rem;
+}
+a {
+    color: rgb(235, 0, 0);
+}
+a:hover {
+    color: rgba(39, 39, 39, 0)
+}
+.strong {
+    font-weight: bold;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}

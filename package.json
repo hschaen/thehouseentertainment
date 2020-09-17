@@ -1,5 +1,6 @@
 {
-  "name": "thehouseentertainment",
+  "name": "absentmindedrecords",
+  "homepage": "/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -19,10 +20,9 @@
     "debug": "^2.6.9",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
-    "http-errors": "~1.6.3",
     "if-env": "^1.0.4",
     "morgan": "^1.9.1",
-    "react-router-dom": "^5.2.0"
+    "http-errors": "~1.6.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
