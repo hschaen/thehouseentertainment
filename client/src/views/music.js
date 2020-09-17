@@ -15,7 +15,7 @@ const Music = () => {
                 <div className="image-container">
                     <img src={image} width="25%" height="auto" alt="Absent Minded Logo"/>
                 </div>
-                <h1 className="white">Absent Minded Music</h1>
+                <h1 className="white">The House Entertainment</h1>
             </header>
             <main>
                 <Container className="flex-container">

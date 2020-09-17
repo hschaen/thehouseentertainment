@@ -27,7 +27,7 @@ const Index = () => {
                     <Route path="*" render={() => <Home links={navLinks} />} />
                 </Switch>
                 <footer>
-                    <p>&copy; Absent Minded Records 2020. Site built by <a href="https://www.thehouseentertainment.com" alt="The House Entertainment"><strong>The House Ent.</strong></a>.</p>
+                    <p>&copy; The House Entertainment 2020. Site built by <a href="https://www.thehouseentertainment.com" alt="The House Entertainment"><strong>The House Ent.</strong></a>.</p>
                 </footer>
             </div>
         </Router>

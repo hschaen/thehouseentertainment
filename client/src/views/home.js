@@ -9,7 +9,7 @@ const Home = (props) => {
                 <div className="image-container">
                     <img src={image} width="25%" height="auto" alt="Absent Minded Logo"/>
                 </div>
-                <h1 className="white">Absent Minded Records</h1>
+                <h1 className="white">The House Entertainment</h1>
             </header>
             <main>
                 <div className="container flex-container">

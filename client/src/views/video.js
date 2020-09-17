@@ -14,7 +14,7 @@ const Video = () => {
                 <div className="image-container">
                     <img src={image} width="25%" height="auto" alt="Absent Minded Logo"/>
                 </div>
-                <h1 className="white">Absent Minded Videos</h1>
+                <h1 className="white">The House Entertainment Videos</h1>
             </header>
             <main>
                 <Container className="flex-container">

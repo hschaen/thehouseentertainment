@@ -65,7 +65,7 @@ function IndexNavbar(props) {
               className="mr-auto"
               id="navbar-brand"
             >
-              Absent Minded Records
+              The House Entertainment
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
               Designed &amp; Coded by The House Entertainment
