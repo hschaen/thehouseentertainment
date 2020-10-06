@@ -1,0 +1,6 @@
+.nav-link.hiddenNavLink {
+    display: none;
+}
+.nav-link.shownNavLink {
+    display: block;
+}

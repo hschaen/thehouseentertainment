@@ -1,22 +1,23 @@
 import React from 'react';
 import Lander from './pages/lander/'
 import Home from './pages/home/'
-import Footer from './components/footer'
+import ShowCase from './pages/showcase/'
+import Footer from './components/Footer'
 import './App.css';
 import {Container} from 'reactstrap';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <Container>
         <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route path="/" component={Lander} />
+          <Route path="/showcase" render={ShowCase} />
+          
+          <Route path="/home" render={Home} />
+          
+          <Route path="/" render={Home} />
         </Switch>
         <Footer/>
-      </Container>
-      
     </Router>
   );
 }

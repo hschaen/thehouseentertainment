@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+
 let list = [
     {name:"home", link: "#"},
     {name:"about", link: "#"},

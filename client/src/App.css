@@ -1,38 +1,92 @@
-.App {
+/*colors*/
+.primary {
+  color: #d20000;
+}
+.secondary {
+  color: #0f1108;
+}
+.tertiary {
+  color: #cde8bd
+}
+/* background colors */
+.color4 {
+  background: #de0d92;
+}
+/*positioning*/
+.center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*page elements*/
+body {
+  background-color: #0f1108;
+  height:100vh;
+  width:100vw;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+main.row {
+  padding: 10% 0 2.5rem 0;
+  width: 100vw;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin:0 auto;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  height:2.5rem;
+}
+/* heading / branding */
+.branding {
+  /* position: fixed; */
+  top: 0;
+  padding-top: 40px;
+  /* z-index:999; */
+  /* background: #0f1108; */
+}
+/* footer section */
+.footerLink {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 5px;
+}
+.footerText {
+  background: #41d3bd;
+}
+.footerText, .footerLink,  footer a  {
+  color: #0f1108;
+}
+/*content elements*/
+a, header a, main a, .nav-content .nav-link a {
+  font-family: 'Roboto Slab', sans-serif;
+  color: #41d3db;
+}
+main a:hover, footer a:hover, .nav-item a:hover {
+  color: #cad8d3;
+}
+main a:hover, footer a:hover {
+  color: #5c5c5c;
+}
+ul.nav-content {
+  padding: 10% 0;
+}
+.nav-item a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+}
+.navbar-nav .nav-link {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+.dropdown-menu {
+  background: transparent;
+}
+h1,h2,h3 {
+  font-family: 'Roboto Slab', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fullHeight {
+  height:100vh;
 }

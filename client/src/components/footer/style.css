@@ -1,0 +1,9 @@
+  .footerLinks {
+    padding:0;
+  }
+  .footerLink {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 5px;
+  }
+  
