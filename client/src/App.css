@@ -1,0 +1,101 @@
+/*colors*/
+.primary {
+  color: #d20000;
+}
+.secondary {
+  color: #0f1108;
+}
+.tertiary {
+  color: #cde8bd
+}
+/* background colors */
+.color4 {
+  background: #de0d92;
+}
+.color5 {
+  color: #41d3db;
+}
+.color6 {
+  color: #5c5c5c;
+}
+/*positioning*/
+.center {
+  text-align: center;
+}
+/*page elements*/
+#root {
+  z-index: 2;
+  position: relative;
+  height: 100vh;
+}
+body {
+  height:100vh;
+  width:100vw;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.backgroundImage {
+  width:100vw;
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  background: url('./assets/images/the-house-entertainment-home-background.jpg') no-repeat;
+  background-size: cover;
+  z-index:1;
+}
+main.row {
+  padding: 10% 0 2.5rem 0;
+  width: 100vw;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin:0 auto;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  height:1.9rem;
+}
+/* heading / branding */
+.branding {
+  /* position: fixed; */
+  top: 0;
+  padding-top: 40px;
+  /* z-index:999; */
+  /* background: #0f1108; */
+}
+/* footer section */
+.footerLink {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 5px;
+}
+.footerText {
+  background: #41d3bd;
+}
+.footerText, .footerLink,  footer a  {
+  color: #0f1108;
+}
+/*content elements*/
+a {
+  font-family: 'Roboto Slab', sans-serif;
+  color: #41d3db;
+}
+main a:hover, footer a:hover, .nav-item a:hover {
+  color: #cad8d3;
+}
+main a:hover, footer a:hover {
+  color: #5c5c5c;
+} 
+
+.dropdown-menu {
+  background: transparent;
+}
+h1,h2,h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.fullHeight {
+  height:100vh;
+}

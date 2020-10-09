@@ -1,0 +1,13 @@
+.homeBox {
+    text-align: center;
+    width: 100%;
+    border: 2px solid #D20000;
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    background: #1e1e1e;
+}
+
+.page-container {
+    height:100vh;
+    position: relative;
+}
