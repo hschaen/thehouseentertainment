@@ -12,7 +12,7 @@ const HomePage = () => {
     return (
         <div id="page-container">
             <Container>
-                <Row className="d-md-none color4">
+                <Row className="d-md-none navRow">
                     <Col md={12}>
                         <NavigationH />
                     </Col>
@@ -27,7 +27,7 @@ const HomePage = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container>
+            <Container className="desktop-nav">
                 <main className="row main-textarea">
                     <Col>    
                         <Navigation />

@@ -2,6 +2,7 @@ import React from 'react';
 import Lander from './pages/lander/'
 import Home from './pages/home/'
 import ShowCase from './pages/showcase/'
+import Video from './pages/video/'
 import Footer from './components/Footer'
 import './App.css';
 import {Container} from 'reactstrap';
@@ -15,6 +16,7 @@ const App = () => {
           
           <Route path="/home" render={Home} />
           
+          <Route path="/videos" render={Video} />
           <Route path="/" render={Home} />
         </Switch>
         <Footer/>

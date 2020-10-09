@@ -5,3 +5,33 @@
 .hiddenNavLink {
     display:none;
 }
+.nav-content .nav-link {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 1rem;
+}
+
+.nav-content .nav-link a {
+    font-family: 'Montserrat', sans-serif;
+    color:#b9ffff
+}
+.nav-content .nav-link:hover {
+    background: #de0e92;
+    cursor:pointer;
+}
+.nav-content .nav-link a:hover {
+    
+    text-decoration: none;
+    color: #fff;
+    width:100vw;
+}
+ul.nav-content {
+    padding: 10% 0;
+}
+.nav-item a {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 2em;
+}

@@ -4,3 +4,6 @@
 .nav-link.shownNavLink {
     display: block;
 }
+.subNavContent li a:hover {
+    background: #de0e9230;
+}

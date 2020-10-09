@@ -6,19 +6,7 @@
     margin: 0 auto 30px auto;
     background: #1e1e1e;
 }
-.nav-content .nav-link {
-    list-style-type: none;
-    text-transform: capitalize;
-    font-size: 1.3em;
-    line-height: 0.7em;
-}
-.nav-content .nav-link a {
-    color:#b9ffff
-}
-.nav-content .nav-link a:hover {
-    text-decoration: none;
-    color: #fff;
-}
+
 .page-container {
     height:100vh;
     position: relative;

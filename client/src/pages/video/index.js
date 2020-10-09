@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ReactPlayer from 'react-player'
 import video from './videos.json'
-import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'   
+import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'  
+import image from '../showcase/the-logo-use-blk-no-triangle.png'
 const Video = () => {
+    const [thisVideo, setThisVideo] = useState("https://www.youtube.com/watch?v=wuS9AgDaaYg")
     return (
         <>
             <a name="video"></a><ReactPlayer wrapper="div.video-container" playing="false" volume="0.5" url={thisVideo} />
