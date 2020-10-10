@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Col, Row } from 'reactstrap'
-import Header from '../../components/header';
-import Main from '../../components/main';
+import Header from '../../components/Header';
+import Main from '../../components/Main';
 const About = () => {
     return (
         <>

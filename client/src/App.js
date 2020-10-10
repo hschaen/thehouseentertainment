@@ -3,7 +3,7 @@ import Lander from './pages/lander/'
 import Home from './pages/home/'
 import ShowCase from './pages/showcase/'
 import Video from './pages/video/'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import './App.css';
 import {Container} from 'reactstrap';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
