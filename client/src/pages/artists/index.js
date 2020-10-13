@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Col, Row } from 'reactstrap'
 import Header from '../../components/Header';
 import Main from '../../components/Main';
-const About = () => {
+const Artist = () => {
     return (
         <>
             <Col>
@@ -16,4 +16,4 @@ const About = () => {
         </>
     )
 }
-export default About
+export default Artist
