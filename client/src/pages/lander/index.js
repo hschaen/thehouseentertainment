@@ -4,7 +4,7 @@ import './style.css'
 import img1 from './the-logo-use-blk-no-triangle.png'
 import { Link } from 'react-router-dom';
 let img1name = 'THE - The House Entertainment'
-const HomePage = () => {
+const Lander = () => {
     return (
         <>
             <Row className={"fullHeight"}>
@@ -24,4 +24,4 @@ const HomePage = () => {
         </>
     )
 }
-export default HomePage
+export default Lander
