@@ -8,9 +8,9 @@
 .nav-content .nav-link {
     list-style-type: none;
     text-transform: capitalize;
-    font-size: 2em;
+    font-size: 1.3em;
     line-height: 1.5em;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .nav-content .nav-link a {
@@ -28,7 +28,7 @@
     width:100vw;
 }
 ul.nav-content {
-    padding: 10% 0;
+    padding: 5% 0;
 }
 .nav-item a {
 text-transform: uppercase;
