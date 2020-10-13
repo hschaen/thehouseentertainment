@@ -26,8 +26,8 @@ const App = () => {
           <Route path="/content" render={Content} />
           <Route path="/" render={Home} />
         </Switch>
-        <Footer/>
       </Container>
+        <Footer/>
     </Router>
   );
 }

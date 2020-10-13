@@ -2,15 +2,11 @@
 .primary {
   color: #d20000;
 }
-.secondary {
+.color2 {
   color: #0f1108;
 }
 .tertiary {
   color: #cde8bd
-}
-/* background colors */
-.color4 {
-  background: #de0d92;
 }
 .color5 {
   color: #41d3db;
@@ -18,6 +14,19 @@
 .color6 {
   color: #5c5c5c;
 }
+/* background colors */
+.bgColor1 {
+  background: #de0d92;
+}
+.bgColor2 {
+  background: #41d3db;
+}
+
+/* button colors */
+.btnColor1 {
+  background: #41d3db;
+}
+
 /*positioning*/
 .center {
   text-align: center;

@@ -1,0 +1,22 @@
+body {
+    background: black
+}
+
+.item-spotify, .item-apple, .item-youtube {
+    display:inline-block; margin:0 2px;
+}
+
+.content-area {
+    text-align:center;
+}
+
+.list-group-item {
+    background: transparent;
+}
+
+.item-text {
+    background: white;
+    width: 247px;
+    margin: auto;
+    font-weight: bold;
+}
