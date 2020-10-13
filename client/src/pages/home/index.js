@@ -10,12 +10,7 @@ let img1name = 'THE - The House Entertainment'
 
 const HomePage = () => {
     return (
-        <Container>
-            <Row className="d-md-none navRow">
-                <Col md={12}>
-                    <NavigationH />
-                </Col>
-            </Row>
+        <>
             <Row className="branding text-center mt-4">
                 <Col md={3}>
                     <div className="branding">
@@ -29,7 +24,7 @@ const HomePage = () => {
                     <SubNavigation />
                 </Col>  
             </Row>
-        </Container>
+        </>
     )
 }
 export default HomePage
